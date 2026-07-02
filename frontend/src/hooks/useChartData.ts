@@ -1,5 +1,5 @@
 import { useMemo } from 'react';
-import type { StatsData, MarketFilter, ChartDataPoint } from '@/types';
+import type { StatsData, MarketFilter } from '@/types';
 import { filterExchangesByMarket, sortExchangesByGroup } from '@/utils/calculations';
 
 /**
